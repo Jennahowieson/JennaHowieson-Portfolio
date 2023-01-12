@@ -4,6 +4,7 @@ const Home = () => (
     <div>
         <h3>Full Stack Software Developer</h3>
         <section id='skills-box'>
+            <div class='circle'> </div>
             <h3>Technical Skills</h3>
             <ul>
                 <li><i class="devicon-python-plain-wordmark"></i></li>
