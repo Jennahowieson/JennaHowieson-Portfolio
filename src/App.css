@@ -3,29 +3,27 @@ Burnt Orange #EE4E34
 #486281 - dark blue
 */
 
-.circle{
-  width:50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: aqua;
+#project-grid {
+  display: flex;
+  flex-direction: row;
 }
-
 
 body {
   height: 100%;
-  background-color: #FCEDDA;
+  font-size: larger;
+  background-color: #fcedda;
   color: black;
-  font-family: monospace
+  font-family: monospace;
 }
-h2{
+h2 {
   font-size: 3rem;
   margin: 0.5rem;
-  color: #EE4E34;
+  color: #ee4e34;
 }
-h3{
-  color: #EE4E34;
+h3 {
+  color: #ee4e34;
 }
-.header{
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,17 +35,17 @@ h3{
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  justify-content:center;
-  padding:0rem;
+  justify-content: center;
+  padding: 0rem;
 }
 
-.about-para{
+.about-para {
   display: flex;
   border: solid #486281;
   margin-bottom: 2rem;
@@ -57,56 +55,70 @@ h3{
   margin-left: 1rem;
   margin-right: 1rem;
 }
-.flex{
-  display: flex;
 
+.project-box {
+  display: flex;
+  flex-direction: column;
+  border: solid #486281;
+  border-radius: 6px;
+  width: 70%;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 20rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex {
+  display: flex;
 }
 section {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-left:10%;
-margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-#skills-box ul{
+#skills-box ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #EE4E34
+  background-color: #ee4e34;
 }
 
-#skills-box li{
+#skills-box li {
   display: flex;
-border: solid #486281;
-border-radius: 6px;
-margin: 6px;
-background-color: white;
-width: 5rem;
-height: 5rem;
-text-align: center;
-align-items: center;
-justify-content: center;
-font-size: 4rem;
-color: #EE4E34;
+  border: solid #486281;
+  border-radius: 6px;
+  margin: 6px;
+  background-color: white;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #ee4e34;
 }
 
-.nav a li{
+.nav a li {
   border: solid #486281;
   padding: 8px;
   border-radius: 6px;
   width: 6rem;
-  background-color: #FCEDDA;
+  background-color: #fcedda;
   font-weight: bold;
   margin-right: 20px;
   margin-left: 2px;
 }
 
-.nav  a li:hover{
-  color: #EE4E34;
+.nav a li:hover {
+  color: #ee4e34;
 }
-a:hover{
-  color: #EE4E34;
+a:hover {
+  color: #ee4e34;
 }
 
 li {
@@ -137,7 +149,7 @@ ul {
 }
 
 .App-header {
-  background-color: #EE4E34;
+  background-color: #ee4e34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -160,5 +172,3 @@ ul {
     transform: rotate(360deg);
   }
 }
-
-
