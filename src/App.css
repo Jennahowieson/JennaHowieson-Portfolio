@@ -71,6 +71,22 @@ h3 {
   align-items: center;
   justify-content: space-around;
 }
+/* github icon size */
+.project-box a{ 
+  font-size: 4rem;
+}
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  border: solid #486281;
+  border-radius: 6px;
+  margin: 1rem;
+  height: 4rem;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
 .flex {
   display: flex;
 }
@@ -108,7 +124,7 @@ section {
   border: solid #486281;
   padding: 8px;
   border-radius: 6px;
-  width: 6rem;
+  width: 8rem;
   background-color: #fcedda;
   font-weight: bold;
   margin-right: 20px;

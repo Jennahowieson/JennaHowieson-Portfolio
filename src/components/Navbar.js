@@ -15,6 +15,7 @@ const NavBar = () => {
                 <Link to="/projects"><li>Projects</li></Link>
                 <Link to="/timeline"><li>My Journey</li></Link>
                 <Link to="/contact"><li>Contact Me</li></Link>
+                <a href="TechnicalCV.pdf" target="_blank"><li>Technical CV</li></a>
             </ul>
         </div>
     );

@@ -7,15 +7,18 @@ function Projects() {
             <section id="project-grid">
                 <section class='project-box'>
                     <h3>Wheelie Wild Campervans</h3>
-                    <p>lorem ipsum</p>
+                    <p>Personal one week project to create a CRUD app using Flask, Python, SQL, Html & Css to help Wheelie Wild Campers manage the rental of their fleet of campervans to different users / renters.</p>
+                    <a href="https://github.com/Jennahowieson/Wheelie-Wild-Campervans/blob/main/README.md" target="_blank"><i class="devicon-github-original-wordmark"></i></a>
                 </section>
                 <section class='project-box'>
                     <h3>Disney Character Finder</h3>
-                    <p> lorem ipsum</p>
+                    <p> Personal weekend project, building a Disney Character Finder using a 3rd party API to randomly generate a character based on the number entered by the user. </p>
+                    <a href="https://github.com/Jennahowieson/Disney-React-App/blob/main/README.md" target="_blank"><i class="devicon-github-original-wordmark"></i></a>
                 </section>
                 <section class='project-box'>
                     <h3>Element_Ables</h3>
-                    <p> lorem ipsum</p>
+                    <p> Group project creating an educational app. It should use the MERN stack of MonogoDB, Express, React and Node (JavaScript).</p>
+                    <a href="https://github.com/bsmith/element_able/blob/main/README.md" target="_blank"><i class="devicon-github-original-wordmark"></i></a>
                 </section>
             </section>
         </>
