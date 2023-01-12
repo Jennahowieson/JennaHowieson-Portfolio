@@ -13,7 +13,7 @@ function About() {
                 </p>
                 <p><b><a href="/timeline">Learn more about my career path here</a></b></p>
             </section>
-            <div class="flex">
+            <div class= "flex">
             <section class='about-para'>
                 <h3>Achievements</h3>
                 <p>Quarterly Award Winner twice for lead role in LGBTQ+ & DEI initiatives. (Skyscanner, 2019 & 2020)</p>
