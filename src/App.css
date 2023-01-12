@@ -71,6 +71,19 @@ h3 {
   align-items: center;
   justify-content: space-around;
 }
+.intro-box{
+  display: flex;
+  flex-direction: column;
+  border: solid #486281;
+  border-radius: 6px;
+  padding: 1rem;
+  margin:1rem;
+  height: fit-content;
+  width: 70%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
 /* github icon size */
 .project-box a {
   font-size: 4rem;
@@ -119,6 +132,7 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   background-color: #ee4e34;
+  width: auto;
 }
 
 #skills-box li {
@@ -184,10 +198,6 @@ ul {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @media screen and (max-width: 480px) {

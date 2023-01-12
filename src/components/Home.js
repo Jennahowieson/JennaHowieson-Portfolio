@@ -2,6 +2,7 @@ import React from "react";
 import anime from 'animejs';
 import { useEffect } from "react";
 
+
 const Home = () => {
 
     const gridanime = (() => {
@@ -21,8 +22,7 @@ const Home = () => {
 
     return (
         <div class="flex-vertical">
-            <h3>Full Stack Software Developer</h3>
-            <section class='project-box'>
+            <section class='intro-box'>
                 <p>Hey, I'm Jenna. I'm a full-stack software developer based in Scotland.</p>
                 <p>I love all elements of programming but have found a particular passion for front-end development.</p>
                 <p>Please take a look around my portfolio, check out my latest projects and reach out if you'd like to connect.</p>
@@ -42,6 +42,10 @@ const Home = () => {
                     <li id="icon"><i class="devicon-wordpress-plain-wordmark "></i></li>
                     <li id="icon"><i class="devicon-canva-original "></i></li>
                     <li id="icon"><i class="devicon-github-original-wordmark "></i></li>
+                    <li id="icon"><i class="devicon-trello-plain-wordmark"></i></li>
+                    <li id="icon"><i class="devicon-vscode-plain-wordmark"></i></li>
+
+
                 </ul>
             </section>
         </div>

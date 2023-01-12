@@ -7,9 +7,9 @@ function Contact() {
             <ul>
                 <li className="contact-box"><a href="mailto:thejennaway@outlook.com"> Email Me: thejennaway@outlook.com </a></li>
                 <li className="contact-box">
-                    <a href="https://www.linkedin.com/in/thejennaway/" target="_blank">Connect On LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/thejennaway/" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain"></i>  Connect On LinkedIn</a>
                 </li>
-                <a href="TechnicalCV.pdf" target="_blank"><li className="contact-box">Download My CV</li></a>
+                <a href="TechnicalCV.pdf" target="_blank" rel="noopener noreferrer"><li className="contact-box">Download My CV</li></a>
             </ul>
         </>
     )
