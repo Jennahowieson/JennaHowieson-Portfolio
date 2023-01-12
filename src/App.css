@@ -3,10 +3,10 @@ Burnt Orange #EE4E34
 #486281 - dark blue
 */
 
-
 #project-grid {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 body {
@@ -62,17 +62,17 @@ h3 {
   flex-direction: column;
   border: solid #486281;
   border-radius: 6px;
-  width: 70%;
   padding: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  height: 20rem;
+  height: fit-content;
+  width: 100%;
   text-align: center;
   align-items: center;
   justify-content: space-around;
 }
 /* github icon size */
-.project-box a{ 
+.project-box a {
   font-size: 4rem;
 }
 .contact-box {
@@ -90,12 +90,28 @@ h3 {
 .flex {
   display: flex;
 }
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: 10%;
   margin-right: 10%;
+}
+#skills-box {
+  border: solid #486281;
+  border-radius: 6px;
+  width: 70%;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 
 #skills-box ul {
@@ -159,7 +175,6 @@ ul {
   pointer-events: none;
 }
 
-
 .App-header {
   background-color: #ee4e34;
   min-height: 100vh;
@@ -175,27 +190,29 @@ ul {
   color: #61dafb;
 }
 
-
 @media screen and (max-width: 480px) {
   body {
-display: flex;
-flex-direction: column;  }
-.nav{
-  flex-wrap: wrap;
-}
-.nav a {
-  margin: 5px;
-}
-.flex{
-  flex-direction: column;
-  align-items: center;
-}
-#project-grid{
-  flex-direction: column;
-  align-items: center;
-}
-.project-box{
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+    flex-wrap: wrap;
+  }
+  .nav a {
+    margin: 5px;
+  }
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  #project-grid {
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+  }
+
+  .project-box {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }

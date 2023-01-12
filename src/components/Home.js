@@ -15,15 +15,20 @@ const Home = () => {
         })
     })
 
-    useEffect(()=>{
+    useEffect(() => {
         gridanime()
     })
-    
+
     return (
-        <div>
+        <div class="flex-vertical">
             <h3>Full Stack Software Developer</h3>
+            <section class='project-box'>
+                <p>Hey, I'm Jenna. I'm a full-stack software developer based in Scotland.</p>
+                <p>I love all elements of programming but have found a particular passion for front-end development.</p>
+                <p>Please take a look around my portfolio, check out my latest projects and reach out if you'd like to connect.</p>
+            </section>
             <section id='skills-box'>
-                <h3>Technical Skills</h3>
+                <h3>Languages, Frameworks & Software I Use (and love)</h3>
                 <ul>
                     <li id="icon"><i class="devicon-python-plain-wordmark"></i></li>
                     <li id="icon"> <i class="devicon-javascript-plain "> </i></li>
