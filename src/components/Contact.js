@@ -1,9 +1,11 @@
 import React from "react";
+import avatar from "../static/Avatar.svg";
 
 function Contact() {
     return (
         <>
             <h2>Let's Connect</h2>
+            <img className="avatar" src={avatar} />
             <ul>
                 <li className="contact-box"><a href="mailto:thejennaway@outlook.com"> Email Me: thejennaway@outlook.com </a></li>
                 <li className="contact-box">

@@ -14,6 +14,7 @@ function Projects() {
                     <h3>Disney Character Finder</h3>
                     <p> Personal weekend project, building a Disney Character Finder using a 3rd party API to randomly generate a character based on the number entered by the user. </p>
                     <a href="https://github.com/Jennahowieson/Disney-React-App/blob/main/README.md" target="_blank" rel="noopener noreferrer"><i class="devicon-github-original-wordmark"></i></a>
+                    <a href="https://jennahowieson.github.io/Disney-React-App/" target="_blank" rel="noopener noreferrer"><i class="fa fa-external-link" id="external-link"></i></a>
                 </section>
                 <section class='project-box'>
                     <h3>Element_Ables</h3>

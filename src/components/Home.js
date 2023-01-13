@@ -3,6 +3,7 @@ import anime from 'animejs';
 import { useEffect } from "react";
 
 
+
 const Home = () => {
 
     const gridanime = (() => {

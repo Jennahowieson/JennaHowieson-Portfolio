@@ -5,6 +5,7 @@ import Error from './components/Error';
 import Contact from './components/Contact';
 import Home from './components/Home';
 import Timeline from './components/Timeline';
+import Footer from "./components/Footer";
 import Projects from './components/Projects';
 
 import React from "react";
@@ -15,7 +16,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <header>
+          <Navbar />
+        </header>
         <Routes>
           <Route path="/portfolio" element={<Home />} />
           <Route path="/" element={<Home />} />
@@ -25,6 +28,9 @@ function App() {
           <Route path="*" element={<Error />} />
           <Route path="/timeline" element={<Timeline />} />
         </Routes>
+        <footer>
+          <Footer />
+        </footer>
       </Router>
     </div>
   )
