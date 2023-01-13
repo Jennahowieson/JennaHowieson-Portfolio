@@ -5,7 +5,7 @@ function Contact() {
     return (
         <>
             <h2>Let's Connect</h2>
-            <img className="avatar" src={avatar} />
+            <img className="avatar" src={avatar} alt="graphic of woman at computer"/>
             <ul>
                 <li className="contact-box"><a href="mailto:thejennaway@outlook.com"> Email Me: thejennaway@outlook.com </a></li>
                 <li className="contact-box">

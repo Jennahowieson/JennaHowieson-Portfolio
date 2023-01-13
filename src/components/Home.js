@@ -30,6 +30,7 @@ const Home = () => {
             </section>
             <section id='skills-box'>
                 <h3>Languages, Frameworks & Software I Use (and love)</h3>
+                <h4>Check out the projects I've build with these in the <a href="/projects">Projects Tab</a></h4>
                 <ul>
                     <li id="icon"><i class="devicon-python-plain-wordmark"></i></li>
                     <li id="icon"> <i class="devicon-javascript-plain "> </i></li>
